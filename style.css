@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    background-color: wheat;
+}
+.title {
+    padding: 10px;
+}
+section {
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+}
+.namelist {
+    flex: 1.5;
+    width: 400px;
+}
+.student-input {
+    border: none;
+    width: 400px;
+    height: 25px;
+    margin-bottom: 3px;
+}
+.add-name-btn {
+    position: absolute;
+    border: none;
+    margin-top: 6px;
+    margin-left: -20px;
+    cursor: pointer;
+}
+.randomizer {
+    border: none;
+    height: 25px;
+    padding: 0 3px;
+    cursor: pointer;
+}
+.listcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px 10px 100px;
+    border: black 3px solid;
+}
+.display-name h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.student-list-child {
+    color: rgb(75, 64, 64);
+    background-color: white;
+    align-content: center;
+    list-style: none;
+    width: 400px;
+    border-style: groove;
+    border-color: rgb(173, 166, 166);
+    margin-top: 3px;
+    text-align: left;
+}
